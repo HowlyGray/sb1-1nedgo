@@ -1,0 +1,19 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5;
+  font-size: 18;
+  font-weight: bold;
+}
+
+.page {
+  background-color: #fff;
+}
+
+.action-bar {
+  background-color: #000;
+  color: #fff;
+}
