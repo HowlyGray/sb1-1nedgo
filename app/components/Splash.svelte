@@ -1,15 +1,16 @@
 <script lang="ts">
-  import { navigate } from 'svelte-native'
-  import { onMount } from 'svelte'
+  import { navigate } from 'svelte-native';
+  import { onMount } from 'svelte';
+  import Login from './Login.svelte';
 
   onMount(() => {
     setTimeout(() => {
       navigate({
-        page: './Register.svelte',
+        page: Login,
         clearHistory: true
-      })
-    }, 2000)
-  })
+      });
+    }, 2000);
+  });
 </script>
 
 <page>
