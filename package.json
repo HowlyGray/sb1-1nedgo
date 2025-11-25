@@ -7,6 +7,7 @@
     "@nativescript/core": "~8.6.0",
     "@nativescript/theme": "~3.0.2",
     "@nativescript/google-maps": "^1.6.0",
+    "@nativescript/local-notifications": "^5.0.0",
     "svelte-native": "~1.0.0"
   },
   "devDependencies": {
